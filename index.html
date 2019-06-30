@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Nyzo Micropay demo site</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+
+<h1>Nyzo Micropay demo site</h1>
+
+<p>
+    This site is a simple example of how to monetize content using Nyzo Micropay. The pages on this site are normal HTML
+    pages. To require payment for a page, add the following tag to the <span class="code">head</span> element of the
+    page. The following tag would require a payment of &cap;0.1 to access the page.
+</p>
+
+<p class="code">
+    &ltmeta name="nyzo-micropay-amount" content="0.1"&gt
+</p>
+
+<p>
+    The content for this site is available at
+    <a href="https://github.com/n-y-z-o/micropayExample" target="_blank">https://github.com/n-y-z-o/micropayExample</a>.
+    The Micropay server is a run mode of the Nyzo verifier codebase, available at
+    <a href="https://github.com/n-y-z-o/nyzoVerifier" target="_blank">https://github.com/n-y-z-o/nyzoVerifier</a>.
+</p>
+
+<p>
+    This site has three pages other than this page. Two are protected for different amounts, and one is free.
+</p>
+
+<p>
+    Page 1: <a href="/page/1">This page is free</a>.
+</p>
+
+<p>
+    Page 2: <a href="/page2">This page costs &cap;0.1 to access</a>. After one hour, authorization expires.
+</p>
+
+<p>
+    Page 3: <a href="/page/3">This page costs &cap;0.05 to access</a>. After one hour, authorization expires.
+</p>
+
+</body>
+
+</html>

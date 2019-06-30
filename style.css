@@ -1,0 +1,41 @@
+h1 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.emphasis {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.filename {
+    font-family: monospace;
+}
+
+.code {
+    font-family: monospace;
+}
+
+.code-image {
+    border: solid black 1px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: lightgray;
+}
+
+.command {
+    max-width: 100%;
+    background-color: #eee;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    margin-right: 0.8em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.6em;
+    font-family: monospace;
+}
